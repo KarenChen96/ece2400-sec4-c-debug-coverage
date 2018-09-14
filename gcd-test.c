@@ -22,6 +22,7 @@ int main()
 
   UTST_ASSERT_INT_EQ( gcd(0,5), 5 );
   UTST_ASSERT_INT_EQ( gcd(6,3), 3 );
+  UTST_ASSERT_INT_EQ( gcd(8,4), 4 );
 
   UTST_END();
   return 0;
